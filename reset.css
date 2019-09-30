@@ -1,0 +1,22 @@
+ *{
+        padding: 0;
+        border: 0;
+        margin: 0;
+}
+ a {
+    text-decoration: none;
+    color: none;
+}
+ul li{
+	list-style:none;
+}
+h1 h2 h3 {
+    font-family: helvetica;
+}
+
+div{
+    box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+}

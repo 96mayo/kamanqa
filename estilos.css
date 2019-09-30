@@ -1,0 +1,138 @@
+
+* {
+    box-sizing: border-box;
+}
+.container{
+ max-width: 1200px;
+ margin: 0 auto;
+ 
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.header img{
+    width: 50%;
+}
+.menu-principal{
+    display: flex;
+}
+.menu-principal li{
+    padding-right: 30px;
+}
+.menu-principal ul li a{
+    color: black;
+}
+.banner-principal{
+    
+    background-image:url(imagenes/banner-principal.jpeg);
+    background-size: cover;
+    background-position: center center; 
+    height: 500px;
+    
+}
+.text-banner{
+    padding-top: 20%;
+}
+.text-small{
+    font-size: 23px; 
+    color:white;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+.text-big{
+    font-size: 50px; 
+    color:white;
+    text-align: left;
+    text-transform: uppercase;
+}
+.quienes-somos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px ;
+   
+}
+.img-qsomos{
+    background-image: url("imagenes/kamanqa_02.jpg");
+    background-size: cover;
+    background-position: center center;
+    max-width: 50%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 0 10% 0 4%;
+}
+.text-qsomos{
+    max-width: 50%;
+}
+
+.servicios{
+    
+    background-image:url(imagenes/backservicios.jpg);
+    height: 600px;
+    padding-top: 7%;
+
+}
+.servicios-contenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.servicios-text{
+    display: block;
+    width: 33%;
+    padding: 1rem 4rem;
+}
+.riaza{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-riaza{
+    max-width: 50%;
+}
+.text-riaza{
+    padding-left: 4%;
+    padding-right: 10%;
+}
+.fondo-escribenos{
+    background-image: url(imagenes/backgroundreperibleturqueza.jpg);
+    background-position: center center;
+    height:400px; 
+}
+.escribenos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.text-escribenos{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 50px;
+}
+.escribenos p a{
+    color: white;
+}
+.fondo-footer{
+    background-color: blue;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+.imagenes-footer .img-footer{
+    padding-left:30px;
+    width: 20%;
+}
